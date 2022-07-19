@@ -1,0 +1,294 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*FORMATTAZIONE DELL'HEADER*/
+#header{
+	background-image: url(img/banner1.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/*regolazione colore scritte menu a cascata*/
+.navbar-nav li a{
+	float: right;
+	color: lightgreen!important;
+}
+
+/*regolazione immagine brand*/
+.navbar-brand img{
+	width: 150px;
+	margin-left: 30px;
+}
+
+.navbar-toggler{
+	border: none!important;
+	outline: none!important;
+}
+
+/*regolazione colore barre del menu*/
+nav .fa-bars{
+	color: lightgreen;
+	font-size: 26px;
+}
+
+/*formattazine del welcome text*/
+.welcome{
+	padding: 50px 100px;
+	margin-top: -140px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1{
+	color: #333;
+}
+
+/*formattazione bottone contattami*/
+.welcome .home-btn{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: black;
+	background-color: lightgreen;
+}
+
+.welcome .btn:focus{
+	box-shadow: none;
+}
+
+/*ABOTU ME*/
+#about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/*formattazione immagine about me*/
+#about .col-md-6{
+	padding: 20px 10px;
+}
+
+/*formattazione testo about me*/
+#about h3{
+	margin: 20px auto;
+}
+
+/*SERVICES*/
+#services{
+	background-color: lightgreen;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#services .col-md-4{
+	padding: 20px;
+}
+
+#services .col-md-4 h4{
+	padding: 5px;
+}
+
+#services .col-md-4 img{
+	width: 100px;
+	margin-left: 60px;
+}
+
+#services .col-md-4 p{
+	padding: 5px;
+	text-align: justify;
+}
+
+/*FEATURES*/
+#features{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/bg-opaco.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+/*formattazione di icone e testi nei features*/
+#features .col-md-6{
+	padding: 20px;
+}
+
+.feature-box{
+	height: 120px;
+}
+
+.feature-box .feature-left{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+
+.feature-box .feature-left .fa{
+	padding-top: 13px;
+	font-size: 50px;
+}
+
+.feature-box .feature-right{
+	height: 120px;
+	width: 80%;
+	float: left;
+}
+
+.feature-box .feature-right h4{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.feature-box .feature-right p{
+	padding-left: 15px;
+	text-align: left;
+}
+
+/*TESTIMONIALS*/
+#testimonials{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#testimonials .col-md-4{
+	padding: 10px 30px;
+}
+
+#testimonials img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: -30px;
+	margin-top: -40px;
+	border: 5px solid #fff;
+	margin-bottom: 30px;
+}
+
+.review{
+	font-size: 16px;
+	padding: 10px 10px 10px 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+.review .fa-thumbs-o-up{
+	color: lightgreen;
+}
+
+#testimonials span{
+	color: lightgreen;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#testimonials h1{
+	margin-bottom: 30px;
+}
+
+#testimonials .middle{
+	margin-bottom: 20px;
+	margin-top: -30px;
+}
+
+/*NEWS*/
+.news{
+	padding: 50px 20px;
+	background-color: lightgreen;
+	position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	margin-bottom: -100px;
+}
+
+.news .input-group{
+	border-radius: 30px;
+	background: #fff;
+	max-width: 500px;
+	margin: 10px auto;
+}
+
+.news .form-control{
+	border: none;
+	background: transparent;
+}
+
+.news .form-control:focus{
+	box-shadow: none;
+	background: transparent;
+}
+
+.news .input-group-append{
+	background-image: linear-gradient(to right, lightgreen, green);
+	border-radius: 30px;
+}
+
+.news .input-group-text{
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+
+.news .btn:focus{
+	box-shadow: none;
+}
+
+/*FOOTER*/
+#footer{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #CCFF99;
+}
+
+#footer p{
+	margin-top: -10px;
+}
+
+.footer-logo{
+	margin-top: -50px;
+	width: 150px;
+	height: 150px;
+
+}
+
+#footer h1{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer p{
+	font-size: 12px;
+	text-align: left;
+}
+
+#footer .city{
+	margin-left: 37px;
+}
+
+#footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+#footer hr{
+	margin-top: 10px;
+}
+
+#footer .fa-heart-o{
+	color: red;
+	font-size: 17px;
+}
+
+#footer .copyright{
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
